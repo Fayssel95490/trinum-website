@@ -1,0 +1,24 @@
+{
+  "company": "Trinum Ingénierie",
+  "tagline": "Vos projets CVSE en toute agilité.",
+  "description": "Bureau d'ingénieurs CVSE réactif, cadré et facile à activer.",
+  "contact": {
+    "email": "contact@trinum-ingenierie.fr",
+    "phone": "+33 1 00 00 00 00",
+    "linkedin": "https://www.linkedin.com/company/trinum-ingenierie"
+  },
+  "navigation": [
+    { "label": "Accueil", "href": "/" },
+    { "label": "Prestations", "href": "/#prestations" },
+    { "label": "Projets", "href": "/projets" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "trustedBy": [
+    { "name": "VINCI", "logo": "/images/logos/vinci.png" },
+    { "name": "BNP Paribas Real Estate", "logo": "/images/logos/bnp-paribas.png" },
+    { "name": "H&dM", "logo": "/images/logos/hdm.png" },
+    { "name": "Marti", "logo": "/images/logos/marti.png" },
+    { "name": "HUG", "logo": "/images/logos/hug.png" },
+    { "name": "ILO", "logo": "/images/logos/ilo.png" }
+  ]
+}

@@ -28,6 +28,11 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# deploy / SSH keys (ne jamais commiter de clé privée)
+deploy_key
+deploy_key.pub
+*.key
+
 # vercel
 .vercel
 

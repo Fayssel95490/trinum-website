@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "tour-triangle-paris",
+    "title": "Tour Triangle — Paris",
+    "subtitle": "Sanitaire EF / EC / EU / EP | Études d'exécution & suivi | IGH (180 m, 44 étages) | Projet finalisé en 2025",
+    "tags": ["Sanitaire", "IGH", "BIM", "Études d'exécution"],
+    "heroImage": "/images/projects/tour-triangle-hero.jpg",
+    "secondImage": "/images/projects/tour-triangle-interior.png",
+    "highlights": [
+      "Suivi et mise au point de la maquette Revit",
+      "Production des schémas hydrauliques/distributions",
+      "Production des carnets de détails — plus de 230 spécifiés"
+    ],
+    "context": "La Tour Triangle, immeuble de grande hauteur de 180 m et 44 étages situé dans le 15e arrondissement de Paris, est un projet d'envergure internationale mêlant bureaux, hôtel, commerces et espaces publics. Trinum Ingénierie a été mandaté pour la conception et le suivi des études d'exécution sanitaires (EF/EC/EU/EP), un périmètre critique dans un IGH de cette dimension. Notre intervention couvre l'ensemble de la chaîne : du dimensionnement hydraulique à la production des plans d'exécution, en passant par la coordination BIM et les interfaces avec les autres lots techniques.",
+    "challengesTitle": "Les contraintes",
+    "challenges": [
+      "Sur un IGH, la hauteur change tout : l'acheminement de l'eau, la maîtrise des pressions statiques et dynamiques, la gestion des colonnes montantes et descendantes sur 44 niveaux imposent un dimensionnement hydraulique rigoureux et des choix techniques spécifiques (réducteurs de pression étagés, disconnecteurs, anti-béliers).",
+      "La coordination inter-lots est permanente : structure, façades, CVC, électricité — chaque réseau doit cohabiter dans des gaines techniques partagées et souvent restreintes.",
+      "Le planning est un facteur critique : les livrables doivent suivre le phasage chantier en temps réel, avec des mises à jour fréquentes et une réactivité immédiate en cas de modification."
+    ],
+    "quoteLabel": "Notre périmètre d'intervention :",
+    "quote": "Études d'exécution sanitaires EF/EC/EU/EP : conception, coordination et dossier chantier, avec un focus sur la hydraulique (44 niveaux) et les interfaces.",
+    "technicalTitle": "Les choix techniques clés",
+    "technicalContent": "<p>Pour garantir une <strong>pression constante</strong> sur l'ensemble des 44 niveaux, nous avons conçu un système de <strong>réduction de pression étagée</strong> avec des paliers tous les 8 à 10 niveaux, chacun équipé de disconnecteurs et de vannes de régulation. Les colonnes montantes EF/EC ont été dimensionnées avec un <strong>logiciel de calcul hydraulique dédié</strong>, intégrant les pertes de charge linéaires et singulières sur toute la hauteur.</p><p>Les réseaux EU/EP suivent une logique gravitaire avec des <strong>colonnes de chute dimensionnées selon le DTU 60.11</strong>, intégrant des culottes de raccordement spécifiques et des tampons de visite à chaque niveau technique. L'ensemble a été modélisé en <strong>BIM (Revit MEP)</strong> pour garantir la cohérence spatiale et faciliter la synthèse avec les autres lots.</p>",
+    "synthesisTitle": "Synthèse BIM & coordination inter-lots",
+    "synthesisContent": "La maquette BIM 3D a été un levier déterminant dans ce projet. Elle a permis d'anticiper les conflits de réseaux, de valider les réservations en structure, et de produire des plans d'exécution directement exploitables sur chantier. Nous avons participé activement aux réunions de synthèse BIM hebdomadaires, assurant la mise à jour continue de notre maquette et la coordination avec les lots CVC, électricité, structure et façades.",
+    "conclusionTitle": "Ce que ce projet démontre",
+    "conclusionContent": "Ce projet illustre notre capacité à livrer des installations sanitaires robustes et conformes dans un contexte IGH, où la pression technique, la coordination et les délais ne laissent aucune marge d'erreur. La Tour Triangle est la preuve que notre méthodologie — rigueur hydraulique, maîtrise BIM, réactivité — fonctionne à grande échelle."
+  },
+  {
+    "slug": "fev-eaux-vives-geneve",
+    "title": "FEV (Eaux-Vives) Genève",
+    "subtitle": "156 logements | CVC | REX (retour d'expérience) | Projet livré",
+    "tags": ["CVC", "Logements", "REX"],
+    "heroImage": "/images/projects/fev-geneve-hero.jpg",
+    "secondImage": "/images/projects/fev-geneve-interior.png",
+    "highlights": [
+      "Dimensionnement de la production et distribution",
+      "Production des schémas de principe hydraulique et aéraulique",
+      "Production des plans techniques CVC"
+    ],
+    "context": "En 2023–2024, le projet FEV s'est inscrit dans l'aménagement du nouveau quartier des Eaux-Vives à Genève, avec la construction de 156 logements répartis sur plusieurs bâtiments. Trinum Ingénierie a assuré la conception et l'exécution technique des installations CVC (Chauffage, Ventilation, Climatisation), de la phase études jusqu'à la livraison. Le contexte suisse impose des exigences élevées en matière de performance énergétique et de confort, dans un cadre réglementaire strict (normes SIA).",
+    "challengesTitle": "Les défis du projet",
+    "challenges": [
+      "Intégrer des systèmes CVC discrets dans une architecture exigeante, avec des contraintes de faux-plafonds réduits et des gaines techniques limitées.",
+      "Garantir une solution performante et réplicable sur plusieurs bâtiments, tout en respectant les spécificités de chaque logement.",
+      "Rester adaptables aux modifications client et aux ajustements en phase chantier, sans compromettre le planning ni la qualité technique."
+    ],
+    "quoteLabel": "Notre mission :",
+    "quote": "Assurer la conception, le dimensionnement et l'exécution technique des installations CVC, en coordination avec la maîtrise d'œuvre et les entreprises.",
+    "technicalTitle": "Choix techniques mis en œuvre (CVC)",
+    "technicalContent": "<p>Sur le plan technique, nous avons retenu un <strong>plancher chauffant basse température</strong> alimenté par une production centralisée (PAC + appoint gaz), couplé à une <strong>ventilation double flux avec récupération de chaleur</strong> pour chaque logement. Cette combinaison permet d'atteindre les objectifs de performance énergétique tout en garantissant un confort acoustique et thermique optimal.</p><p>Les schémas de principe hydrauliques et aérauliques ont été produits en interne, accompagnés de <strong>notes de calcul détaillées</strong> (déperditions, débits, pertes de charge) validées par la maîtrise d'œuvre. Les plans d'exécution ont été livrés au format DWG et intégrés à la maquette BIM du projet.</p>",
+    "synthesisTitle": "Coordination & rigueur d'exécution",
+    "synthesisContent": "La coordination inter-lots devient ensuite un sujet quotidien : au moment de l'exécution on gère des interfaces avec le gros œuvre, l'électricité, la plomberie, et l'enveloppe. C'est un travail de fourmi — mais c'est ce qui garantit un chantier fluide. Nous avons assuré le suivi des réservations, la validation des passages de réseaux, et la mise à jour des plans en fonction des aléas chantier.",
+    "conclusionTitle": "Résultats obtenus",
+    "conclusionContent": "Avec le recul, ce projet confirme un point essentiel : sur du logement collectif à grande échelle, c'est la rigueur d'exécution qui fait la différence. Les 156 logements ont été livrés conformes aux attentes, dans les délais, avec un retour positif de la maîtrise d'ouvrage sur la qualité des documents techniques et la réactivité de notre équipe."
+  },
+  {
+    "slug": "villa-clos-harmonie-aix",
+    "title": "Villa Clos Harmonie Aix-en-Provence",
+    "subtitle": "Électricité CFO / CFA | Études & exécution complète | 320 m²",
+    "tags": ["Électricité", "CFO", "CFA", "Maison individuelle"],
+    "heroImage": "/images/projects/villa-clos-harmonie-hero.jpg",
+    "secondImage": "/images/projects/villa-clos-harmonie-interior.png",
+    "highlights": [
+      "Dimensionnement DCE/CFA, bilan de puissance",
+      "Étude et intégration des modifications client",
+      "Production des plans techniques électricité"
+    ],
+    "context": "Située sur les hauteurs d'Aix-en-Provence, la villa Clos Harmonie est une maison individuelle haut de gamme de 320 m², conçue par un architecte local avec une exigence forte sur l'intégration technique. Trinum Ingénierie a pris en charge l'intégralité des études et du suivi d'exécution électrique (CFO — Courants Forts / CFA — Courants Faibles), de la phase DCE jusqu'à la réception des travaux.",
+    "challengesTitle": "Enjeu & attentes du client",
+    "challenges": [
+      "Installation électrique à la fois haut de gamme et évolutive : équipements classiques irréprochables + base connectée domotique.",
+      "Intégration discrète de l'ensemble des réseaux dans une architecture contemporaine aux finitions soignées.",
+      "Coordination étroite avec l'architecte et les autres corps d'état pour respecter l'esthétique du projet."
+    ],
+    "quoteLabel": "Notre mission (CFO / CFA — études & suivi d'exécution)",
+    "quote": "Conception, plans et suivi de chantier CFO/CFA jusqu'à réception avec une priorité : une exécution maîtrisée et des interfaces cohérentes.",
+    "technicalTitle": "Solutions techniques mises en œuvre",
+    "technicalContent": "<p>Nous avons conçu une <strong>distribution électrique complète</strong> dimensionnée selon la NF C 15-100, avec un tableau général et des tableaux divisionnaires par zone. Le bilan de puissance a été réalisé en intégrant les équipements spécifiques : pompe à chaleur, plancher chauffant électrique d'appoint, borne de recharge véhicule électrique, et système de domotique KNX.</p><p>Côté courants faibles, nous avons prévu un <strong>réseau VDI (Voix Données Images)</strong> structuré en étoile depuis une baie de brassage centrale, une <strong>installation multiroom audio</strong>, un système de vidéosurveillance IP, et une pré-installation pour store et éclairage automatisés.</p>",
+    "synthesisTitle": "Coordination & intégration chantier",
+    "synthesisContent": "Nous avons intégré nos études au sein des plans architecte et coordonné nos réseaux avec le lot CVC et plomberie. Les réservations ont été transmises en amont au gros œuvre, et les plans de cheminement validés avec l'entreprise d'exécution. Le suivi chantier a permis d'ajuster les implantations en temps réel, notamment pour les sorties de câbles et les boîtiers encastrés dans les murs béton.",
+    "conclusionTitle": "Résultat & retour d'expérience",
+    "conclusionContent": "Le projet Clos Harmonie illustre notre capacité à livrer une installation électrique personnalisée, techniquement irréprochable et parfaitement intégrée à l'architecture. Ce type de projet confirme que notre approche — études détaillées, coordination rigoureuse, suivi terrain — s'adapte aussi bien aux grands ensembles qu'aux projets résidentiels haut de gamme."
+  }
+]
