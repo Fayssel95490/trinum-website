@@ -22,9 +22,14 @@ export function ProjectCard({
   highlights,
   ctaLabel = "Voir l\u2019\u00e9tude de cas",
 }: ProjectCardProps) {
+  const projectHref = `/projets/${slug}`;
+
   return (
     <Card className="flex flex-col overflow-hidden border-border">
-      <div className="relative aspect-[4/3]">
+      <Link
+        href={projectHref}
+        className="relative block aspect-[4/3] overflow-hidden outline-none transition-opacity hover:opacity-90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+      >
         <Image
           src={image}
           alt={title}
@@ -32,7 +37,7 @@ export function ProjectCard({
           className="object-cover"
           loading="lazy"
         />
-      </div>
+      </Link>
       <CardContent className="flex flex-1 flex-col p-5">
         <h3 className="mb-1 text-lg font-bold text-foreground">{title}</h3>
         <p className="mb-4 text-sm text-muted-foreground">{subtitle}</p>

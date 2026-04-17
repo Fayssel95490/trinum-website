@@ -4,8 +4,8 @@ const steps = [
     title: "Cadrage & données",
     color: "accent" as const,
     items: [
-      "Besoins clarifiés,",
-      "Documents collectés,",
+      "Besoins clarifiés.",
+      "Documents collectés.",
       "Contraintes et périmètre validés.",
     ],
   },
@@ -14,8 +14,8 @@ const steps = [
     title: "Avant-projet (APS/APD)",
     color: "primary" as const,
     items: [
-      "Variantes proposées,",
-      "Dimensionnements préliminaires,",
+      "Variantes proposées.",
+      "Dimensionnements préliminaires.",
       "Solution optimale retenue.",
     ],
   },
@@ -24,8 +24,8 @@ const steps = [
     title: "Projet & coordination",
     color: "primary" as const,
     items: [
-      "Plans détaillés,",
-      "Interfaces CET coordonnées,",
+      "Plans détaillés.",
+      "Interfaces CET coordonnées.",
       "Pièces d'appel d'offres prêtes.",
     ],
   },
@@ -34,8 +34,8 @@ const steps = [
     title: "Exécution & mise en service",
     color: "accent" as const,
     items: [
-      "Support chantier,",
-      "Ajustements maîtrisés,",
+      "Support chantier.",
+      "Ajustements maîtrisés.",
       "Essais et réception accompagnés.",
     ],
   },

@@ -12,7 +12,7 @@ export function TrustedBy() {
           {siteData.trustedBy.map((partner) => (
             <div
               key={partner.name}
-              className="relative h-14 w-28 opacity-60 grayscale transition-opacity hover:opacity-100 md:h-16 md:w-32"
+              className="relative h-14 w-28 opacity-60 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0 md:h-16 md:w-32"
             >
               <Image
                 src={partner.logo}

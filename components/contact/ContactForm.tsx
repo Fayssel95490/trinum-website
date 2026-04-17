@@ -114,7 +114,7 @@ export function ContactForm() {
         <Input
           id="phone"
           type="tel"
-          placeholder="+33 6 00 00 00 00"
+          placeholder="+41 79 000 00 00"
           {...register("phone")}
         />
       </div>

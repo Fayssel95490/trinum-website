@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export function CalendlyButton() {
   const calendlyUrl =
     process.env.NEXT_PUBLIC_CALENDLY_URL ||
-    "https://calendly.com/trinum-ingenierie/30min";
+    "https://calendly.com/trinum-ing-info/30min";
 
   return (
     <div className="space-y-4">

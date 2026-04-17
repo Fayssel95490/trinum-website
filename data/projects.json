@@ -11,7 +11,7 @@
       "Production des schémas hydrauliques/distributions",
       "Production des carnets de détails — plus de 230 spécifiés"
     ],
-    "context": "La Tour Triangle, immeuble de grande hauteur de 180 m et 44 étages situé dans le 15e arrondissement de Paris, est un projet d'envergure internationale mêlant bureaux, hôtel, commerces et espaces publics. Trinum Ingénierie a été mandaté pour la conception et le suivi des études d'exécution sanitaires (EF/EC/EU/EP), un périmètre critique dans un IGH de cette dimension. Notre intervention couvre l'ensemble de la chaîne : du dimensionnement hydraulique à la production des plans d'exécution, en passant par la coordination BIM et les interfaces avec les autres lots techniques.",
+    "context": "La Tour Triangle, immeuble de grande hauteur de 180 m et 44 étages situé dans le 15e arrondissement de Paris, est un projet d'envergure internationale mêlant bureaux, hôtel, commerces et espaces publics. Nous avons effectué la conception et le suivi des études d'exécution sanitaires (EF/EC/EU/EP), un périmètre critique dans un IGH de cette dimension. Notre intervention couvre l'ensemble de la chaîne : du dimensionnement hydraulique à la production des plans d'exécution, en passant par la coordination BIM et les interfaces avec les autres lots techniques.",
     "challengesTitle": "Les contraintes",
     "challenges": [
       "Sur un IGH, la hauteur change tout : l'acheminement de l'eau, la maîtrise des pressions statiques et dynamiques, la gestion des colonnes montantes et descendantes sur 44 niveaux imposent un dimensionnement hydraulique rigoureux et des choix techniques spécifiques (réducteurs de pression étagés, disconnecteurs, anti-béliers).",
@@ -33,13 +33,13 @@
     "subtitle": "156 logements | CVC | REX (retour d'expérience) | Projet livré",
     "tags": ["CVC", "Logements", "REX"],
     "heroImage": "/images/projects/fev-geneve-hero.jpg",
-    "secondImage": "/images/projects/fev-geneve-interior.png",
+    "secondImage": "/images/projects/fev-geneve-interior.jpeg",
     "highlights": [
       "Dimensionnement de la production et distribution",
       "Production des schémas de principe hydraulique et aéraulique",
       "Production des plans techniques CVC"
     ],
-    "context": "En 2023–2024, le projet FEV s'est inscrit dans l'aménagement du nouveau quartier des Eaux-Vives à Genève, avec la construction de 156 logements répartis sur plusieurs bâtiments. Trinum Ingénierie a assuré la conception et l'exécution technique des installations CVC (Chauffage, Ventilation, Climatisation), de la phase études jusqu'à la livraison. Le contexte suisse impose des exigences élevées en matière de performance énergétique et de confort, dans un cadre réglementaire strict (normes SIA).",
+    "context": "En 2023–2024, le projet FEV s'est inscrit dans l'aménagement du nouveau quartier des Eaux-Vives à Genève, avec la construction de 156 logements répartis sur plusieurs bâtiments. Nous avons effectué la conception et l'exécution technique des installations CVC (Chauffage, Ventilation, Climatisation), de la phase études jusqu'à la livraison. Le contexte impose des exigences élevées en matière de performance énergétique et de confort, dans un cadre réglementaire strict (normes SIA).",
     "challengesTitle": "Les défis du projet",
     "challenges": [
       "Intégrer des systèmes CVC discrets dans une architecture exigeante, avec des contraintes de faux-plafonds réduits et des gaines techniques limitées.",
@@ -60,14 +60,14 @@
     "title": "Villa Clos Harmonie Aix-en-Provence",
     "subtitle": "Électricité CFO / CFA | Études & exécution complète | 320 m²",
     "tags": ["Électricité", "CFO", "CFA", "Maison individuelle"],
-    "heroImage": "/images/projects/villa-clos-harmonie-hero.jpg",
+    "heroImage": "/images/projects/villa-clos-harmonie-hero.png",
     "secondImage": "/images/projects/villa-clos-harmonie-interior.png",
     "highlights": [
       "Dimensionnement DCE/CFA, bilan de puissance",
       "Étude et intégration des modifications client",
       "Production des plans techniques électricité"
     ],
-    "context": "Située sur les hauteurs d'Aix-en-Provence, la villa Clos Harmonie est une maison individuelle haut de gamme de 320 m², conçue par un architecte local avec une exigence forte sur l'intégration technique. Trinum Ingénierie a pris en charge l'intégralité des études et du suivi d'exécution électrique (CFO — Courants Forts / CFA — Courants Faibles), de la phase DCE jusqu'à la réception des travaux.",
+    "context": "Située sur les hauteurs d'Aix-en-Provence, la villa Clos Harmonie est une maison individuelle haut de gamme de 320 m², conçue par un architecte local avec une exigence forte sur l'intégration technique. Nous avons effectué l'intégralité des études et le suivi d'exécution électrique (CFO — Courants Forts / CFA — Courants Faibles), de la phase DCE jusqu'à la réception des travaux.",
     "challengesTitle": "Enjeu & attentes du client",
     "challenges": [
       "Installation électrique à la fois haut de gamme et évolutive : équipements classiques irréprochables + base connectée domotique.",

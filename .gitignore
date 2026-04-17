@@ -32,6 +32,7 @@ yarn-error.log*
 deploy_key
 deploy_key.pub
 *.key
+GITHUB_PUBLIC_KEY.txt
 
 # vercel
 .vercel
