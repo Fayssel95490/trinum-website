@@ -1,14 +1,15 @@
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import projects from "@/data/projects.json";
+import home from "@/data/home.json";
 
 export function ProjectsPreview() {
   return (
     <section className="bg-background px-4 py-20 md:px-6">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 text-center">
-          <h2 className="heading-xl">Références &amp; Réalisations</h2>
+          <h2 className="heading-xl">{home.projectsPreview.title}</h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Une solution qui vous fait économiser du temps et de l&apos;énergie.
+            {home.projectsPreview.subtitle}
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

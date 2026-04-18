@@ -1,0 +1,22 @@
+{
+  "calendlyUrl": "https://calendly.com/trinum-ing-info/30min",
+  "page": {
+    "title": "Contact",
+    "subtitle": "Décrivez votre projet ou réservez un créneau d'échange.",
+    "formTitle": "Décrivez votre projet",
+    "orLabel": "ou"
+  },
+  "calendly": {
+    "title": "Préférez un échange direct ?",
+    "description": "Réservez directement un créneau de 30 min dans notre agenda.",
+    "buttonLabel": "📅 Prendre rendez-vous sur Calendly"
+  },
+  "projectTypes": [
+    "Logements collectifs",
+    "IGH / Grande hauteur",
+    "Bureaux & Tertiaire",
+    "Maison individuelle",
+    "Réhabilitation",
+    "Autre"
+  ]
+}

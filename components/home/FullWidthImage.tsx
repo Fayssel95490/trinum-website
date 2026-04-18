@@ -1,12 +1,13 @@
 import Image from "next/image";
+import home from "@/data/home.json";
 
 export function FullWidthImage() {
   return (
     <section className="relative w-full">
       <div className="relative aspect-[16/9] md:aspect-[21/9]">
         <Image
-          src="/images/projects/industrial-fullwidth.png"
-          alt="Installation industrielle CVSE — tuyauterie et chaufferie"
+          src={home.fullWidthImage.src}
+          alt={home.fullWidthImage.alt}
           fill
           className="object-cover"
           loading="lazy"

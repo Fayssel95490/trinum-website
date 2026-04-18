@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Vos projets CVSE en toute agilité",
+    "subtitle": "Un bureau d'ingénieurs réactif, cadré et facile à activer — tout sans complexification du projet.",
+    "image": "/images/projects/hero-laptop.png",
+    "imageAlt": "Projet CVSE présenté sur un écran laptop"
+  },
+  "whyTrinum": {
+    "title": "Pourquoi Trinum ?",
+    "subtitle": "Un bureau d'ingénieurs réactif, cadré et facile à activer pour vos projets CVSE.",
+    "reasons": [
+      {
+        "icon": "Users",
+        "title": "Un seul interlocuteur, des arbitrages rapides",
+        "description": "Vous échangez avec un ingénieur dédié qui connaît votre projet. Pas de perte d'information, pas de délai de transmission entre services."
+      },
+      {
+        "icon": "FileCheck",
+        "title": "Conception conforme et prête à autoriser",
+        "description": "Nos études intègrent dès le départ les exigences réglementaires (DTU, NF, SIA). Résultat : moins d'itérations, des dossiers solides dès la première soumission."
+      },
+      {
+        "icon": "HardHat",
+        "title": "Plans & BIM orientés chantiers",
+        "description": "Nos livrables sont pensés pour l'exécution : plans cotés, schémas de principe exploitables, maquettes BIM coordonnées avec les autres lots."
+      },
+      {
+        "icon": "Zap",
+        "title": "Rigueur grand compte, agilité d'une petite équipe",
+        "description": "La méthodologie et la traçabilité d'un grand bureau, avec la réactivité et la proximité d'une structure à taille humaine."
+      }
+    ]
+  },
+  "fullWidthImage": {
+    "src": "/images/projects/industrial-fullwidth.png",
+    "alt": "Installation industrielle CVSE — tuyauterie et chaufferie"
+  },
+  "stepByStep": {
+    "title": "Votre projet étape par étape",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Cadrage & données",
+        "color": "accent",
+        "items": [
+          "Besoins clarifiés.",
+          "Documents collectés.",
+          "Contraintes et périmètre validés."
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Avant-projet (APS/APD)",
+        "color": "primary",
+        "items": [
+          "Variantes proposées.",
+          "Dimensionnements préliminaires.",
+          "Solution optimale retenue."
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Projet & coordination",
+        "color": "primary",
+        "items": [
+          "Plans détaillés.",
+          "Interfaces CET coordonnées.",
+          "Pièces d'appel d'offres prêtes."
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Exécution & mise en service",
+        "color": "accent",
+        "items": [
+          "Support chantier.",
+          "Ajustements maîtrisés.",
+          "Essais et réception accompagnés."
+        ]
+      }
+    ]
+  },
+  "projectsPreview": {
+    "title": "Références & Réalisations",
+    "subtitle": "Une solution qui vous fait économiser du temps et de l'énergie."
+  },
+  "cta": {
+    "title": "Évaluez votre projet",
+    "description": "Planifiez un premier échange pour voir comment Trinum peut vous accompagner sur vos projets techniques.",
+    "buttonLabel": "Contactez-nous →",
+    "buttonHref": "/contact"
+  }
+}

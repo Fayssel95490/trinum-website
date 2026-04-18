@@ -17,15 +17,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { contactSchema, type ContactFormData } from "@/lib/validations";
-
-const projectTypes = [
-  "Logements collectifs",
-  "IGH / Grande hauteur",
-  "Bureaux & Tertiaire",
-  "Maison individuelle",
-  "Réhabilitation",
-  "Autre",
-];
+import contactData from "@/data/contact.json";
 
 export function ContactForm() {
   const [status, setStatus] = useState<
@@ -126,7 +118,7 @@ export function ContactForm() {
             <SelectValue placeholder="Sélectionnez un type de projet" />
           </SelectTrigger>
           <SelectContent>
-            {projectTypes.map((type) => (
+            {contactData.projectTypes.map((type) => (
               <SelectItem key={type} value={type}>
                 {type}
               </SelectItem>

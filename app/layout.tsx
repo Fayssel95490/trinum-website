@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { DM_Serif_Display, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/layout/Footer";
+import { SiteChrome } from "@/components/layout/SiteChrome";
 import { Toaster } from "@/components/ui/sonner";
 
 const dmSerif = DM_Serif_Display({
@@ -31,9 +30,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={cn(dmSerif.variable, inter.variable)}>
       <body className="font-sans antialiased">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <SiteChrome>{children}</SiteChrome>
         <Toaster />
       </body>
     </html>
