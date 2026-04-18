@@ -43,9 +43,9 @@
         "title": "Cadrage & données",
         "color": "accent",
         "items": [
-          "Besoins clarifiés.",
-          "Documents collectés.",
-          "Contraintes et périmètre validés."
+          "Besoins clarifiés",
+          "Documents collectés",
+          "Contraintes et périmètre validés"
         ]
       },
       {
@@ -53,9 +53,9 @@
         "title": "Avant-projet (APS/APD)",
         "color": "primary",
         "items": [
-          "Variantes proposées.",
-          "Dimensionnements préliminaires.",
-          "Solution optimale retenue."
+          "Variantes proposées",
+          "Dimensionnements préliminaires",
+          "Solution optimale retenue"
         ]
       },
       {
@@ -63,9 +63,9 @@
         "title": "Projet & coordination",
         "color": "primary",
         "items": [
-          "Plans détaillés.",
-          "Interfaces CET coordonnées.",
-          "Pièces d'appel d'offres prêtes."
+          "Plans détaillés",
+          "Interfaces CET coordonnées",
+          "Pièces d'appel d'offres prêtes"
         ]
       },
       {
@@ -73,9 +73,9 @@
         "title": "Exécution & mise en service",
         "color": "accent",
         "items": [
-          "Support chantier.",
-          "Ajustements maîtrisés.",
-          "Essais et réception accompagnés."
+          "Support chantier",
+          "Ajustements maîtrisés",
+          "Essais et réception accompagnés"
         ]
       }
     ]
@@ -87,7 +87,7 @@
   "cta": {
     "title": "Évaluez votre projet",
     "description": "Planifiez un premier échange pour voir comment Trinum peut vous accompagner sur vos projets techniques.",
-    "buttonLabel": "Contactez-nous",
+    "buttonLabel": "Contactez-nous →",
     "buttonHref": "/contact"
   }
 }
