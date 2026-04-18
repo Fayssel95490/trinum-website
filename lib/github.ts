@@ -32,23 +32,64 @@ function getOctokit() {
   return new Octokit({ auth: token });
 }
 
+/**
+ * Lit un fichier via l'API Git Data (refs → tree → blob) au lieu de l'API Contents.
+ * L'API Contents est cachée par GitHub pendant quelques minutes après un commit,
+ * ce qui ferait que l'admin n'affiche pas la dernière version après un enregistrement.
+ * L'API Git Data n'a pas ce cache : on récupère toujours le HEAD à jour.
+ */
 export async function readFile(path: string): Promise<string | null> {
   const { owner, repo, branch } = getConfig();
   const octokit = getOctokit();
 
   try {
-    const { data } = await octokit.rest.repos.getContent({
+    const { data: refData } = await octokit.rest.git.getRef({
       owner,
       repo,
-      path,
-      ref: branch,
+      ref: `heads/${branch}`,
     });
+    const commitSha = refData.object.sha;
 
-    if (Array.isArray(data) || data.type !== "file") {
-      return null;
+    const { data: commit } = await octokit.rest.git.getCommit({
+      owner,
+      repo,
+      commit_sha: commitSha,
+    });
+    const rootTreeSha = commit.tree.sha;
+
+    const segments = path.split("/").filter(Boolean);
+    let currentTreeSha = rootTreeSha;
+    let fileSha: string | null = null;
+
+    for (let i = 0; i < segments.length; i++) {
+      const segment = segments[i];
+      const isLast = i === segments.length - 1;
+
+      const { data: tree } = await octokit.rest.git.getTree({
+        owner,
+        repo,
+        tree_sha: currentTreeSha,
+      });
+      const entry = tree.tree.find((t) => t.path === segment);
+      if (!entry || !entry.sha) return null;
+
+      if (isLast) {
+        if (entry.type !== "blob") return null;
+        fileSha = entry.sha;
+      } else {
+        if (entry.type !== "tree") return null;
+        currentTreeSha = entry.sha;
+      }
     }
 
-    return Buffer.from(data.content, "base64").toString("utf-8");
+    if (!fileSha) return null;
+
+    const { data: blob } = await octokit.rest.git.getBlob({
+      owner,
+      repo,
+      file_sha: fileSha,
+    });
+    return Buffer.from(blob.content, "base64").toString("utf-8");
   } catch (err: unknown) {
     const e = err as { status?: number };
     if (e?.status === 404) return null;
