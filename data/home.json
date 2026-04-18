@@ -87,7 +87,7 @@
   "cta": {
     "title": "Évaluez votre projet",
     "description": "Planifiez un premier échange pour voir comment Trinum peut vous accompagner sur vos projets techniques.",
-    "buttonLabel": "Contactez-nous →",
+    "buttonLabel": "Contactez-nous",
     "buttonHref": "/contact"
   }
 }
